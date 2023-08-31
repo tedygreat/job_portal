@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title>JOB PORTAL</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/mainu.css">
+
+</head>
+<body>
+	<header>
+		<div class="topnav">
+   <a href="#about">About</a>
+   <a href="#contact">Contact</a>
+   <a href="#news">News</a>
+   <a class="active" href="#home">Home</a>
+</div>
+	</header>
+	
+	<section class="places">
+			
+					<article>
+				<h2>login or signup for accessing job portal </h2>
+			
+					<div class="description">
+	  				Recently posted vacancies are listed below the slider. Browse the jobs and click ont it for detail and to apply for the job. To apply here you should first login. If you have not registered yet please click signup button and registered.
+	  				once you login you can access the following 
+	  			</div>
+	  			<div class="amenitiesr">
+	  				<h2>valuse </h2>
+	  				<ul>
+	  					<li>
+	  						<p id="pet1"> can see new vacancy  </p>
+	  					    <p id="tv1"> can add your cv  </p>
+	  						<p id="wifi1"> can apply for new vacancy  </p>
+	  					</li>
+	  				</ul>
+	  			</div>
+
+	  			<div class="reviews">
+           	
+
+<button>
+                  <a href="login.html" style="color: #FFFFFF; text-decoration: none;">Sign In</a><br/>
+                
+                </button>
+               <button>
+                  <a href="signup.html" style="color: #FFFFFF; text-decoration: none;">Sign Up</a>
+               </button>
+          </div>
+	  		
+			</article>
+
+			<div class="anim1">
+      		
+				
+
+
+<div class="slideshow-container">
+<p style="font-weight: bold; font-size: 30px ;">RIGHT PLACE FOR JOB OPPORTUNITY !!! </p>
+<div class="mySlides fade">
+  
+  <img src="asset/imageimg_nature_wide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="asset/imageimg_snow_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="asset/imageimg_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+			
+      		</div>
+						
+		</section>
+		
+	  </div>
+        <div style="margin: 20px;"> </div>
+        <!-- ./feed -->
+      </div>
+		
+	
+	<footer>
+
+		<p>Author: Tewodros Shimels<br>
+  <a href="tedygreat@gmail.com">Email Address :tedygreat@gmail.com</a></p>
+		
+	</footer> 
+</body>
